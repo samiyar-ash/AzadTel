@@ -7,15 +7,6 @@ android {
     namespace = "ir.samiyarashouri.azadtel"
     compileSdk = 35
 
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
-    }
-
-    kotlinOptions {
-        jvmTarget = "17"
-    }
-
     defaultConfig {
         applicationId = "ir.samiyarashouri.azadtel"
         minSdk = 23
